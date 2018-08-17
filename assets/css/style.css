@@ -1,3 +1,5 @@
+html {margin: 0; padding: 0; height: 1000px}
+
 #links {background-color: #ffffff; 
         width: 100%; height: 70px; 
         text-align: right; position: absolute; 
@@ -12,19 +14,50 @@ header {font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold
         background-color: #4aaaa5; left: 261px; line-height: 70px; text-align: center;
         color: white; border-bottom: 2px #cccccc solid}
 
-#break {width: 100%; border-bottom: 2px #dddddd solid; margin-bottom: 15px; }
+#break {width: 100%; border-bottom: 2px #dddddd solid; margin-bottom: 15px;}
 
 h1 {color: #4aaaa5}
 
-#me {height: 30%; width: 30%; float: left; margin-right: 15px; position: relative; top: 12px}
+#me {height: 25%; width: 32%; float: left; margin-right: 15px; position: relative; top: 12px}
 
 p {font-size: 20px; font-family: Arial, Helvetica, sans-serif; line-height: 40px}
 
 #info {width: 960px; align-content: center; 
         background-color: white; margin: auto; 
         padding: 20px; position: relative; top: 100px;
-        border: 1px #dddddd solid}
+        border: 1px #dddddd solid; overflow: hidden; margin-bottom: 20px;
+        min-height: calc(100vh - 160px);}
 
 body {background-image: url("../images/groovepaper.png")}
 
-footer {width: 100%; height: 50px; background: white}
+#footer {width: 100%; height: 70px; background: #666666; position: absolute; left: 0px; z-index: 3; 
+         bottom: -276px;color: white; text-align: center; line-height: 120px; float: inherit;
+         border-top: #4aaaa5 10px solid; font-size: 12px;}
+
+.first {float: left; margin: 20px}
+
+.second {clear: both; float: left; margin: 20px}
+
+.second2 {float: left; margin: 20px}
+
+.third {clear: both; float: left; margin: 20px}
+
+.bk {width: 250px; height: 40px; position: absolute; z-index: 4; left: 40px; 
+    top: 220px; background-color: #4aaaa5; color: white; font-size: 16px; 
+    text-align: center; line-height: 40px; font-family: Georgia, 'Times New Roman', Times, serif }
+
+.bk2 {width: 250px; height: 40px; position: absolute; z-index: 4; left: 330px; 
+    top: 220px; background-color: #4aaaa5; color: white; font-size: 16px; 
+    text-align: center; line-height: 40px; font-family: Georgia, 'Times New Roman', Times, serif }
+
+.bk3 {width: 250px; height: 40px; position: absolute; z-index: 4; left: 40px; 
+    top: 410px; background-color: #4aaaa5; color: white; font-size: 16px; 
+    text-align: center; line-height: 40px; font-family: Georgia, 'Times New Roman', Times, serif }
+
+.bk4 {width: 250px; height: 40px; position: absolute; z-index: 4; left: 330px; 
+    top: 410px; background-color: #4aaaa5; color: white; font-size: 16px; 
+    text-align: center; line-height: 40px; font-family: Georgia, 'Times New Roman', Times, serif }
+
+.bk5 {width: 250px; height: 40px; position: absolute; z-index: 4; left: 40px; 
+    top: 600px; background-color: #4aaaa5; color: white; font-size: 16px; 
+    text-align: center; line-height: 40px; font-family: Georgia, 'Times New Roman', Times, serif }
